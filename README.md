@@ -42,7 +42,7 @@ The data pipeline runs through the following sequence:
 [ Text Cleaner & Grammar Correction ] ◄── Capitalizes, punctuates, corrects spelling
           │ (Cleaned Transcription)
           ▼
-[ Translation Engine ] ◄── Translates via Google Translate API
+[ Translation Engine ] ◄── Translates via Google Translate (free web interface)
           │ (Translated Text)
           ▼
 [ Display Output ] (Terminal / Streamlit Web App)
@@ -61,7 +61,7 @@ The data pipeline runs through the following sequence:
 - [processing/](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/processing)
   - [grammar.py](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/processing/grammar.py): Corrects grammar and spelling using TextBlob.
   - [text_cleaner.py](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/processing/text_cleaner.py): Standardizes capitalization, removes immediate word repetition, and inserts punctuation.
-  - [translator.py](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/processing/translator.py): Translates text via the Google Translate API.
+  - [translator.py](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/processing/translator.py): Translates text via Google Translate (free web interface).
 - [ui/](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/ui)
   - [streamlit_app.py](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/ui/streamlit_app.py): Implementation of the Streamlit-based web interface.
 - [utils/](file:///c:/Projects/AI-based%20live%20stream%20subtitle%20and%20translation%20system/utils)
