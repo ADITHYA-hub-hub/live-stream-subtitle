@@ -9,6 +9,7 @@ __pycache__/
 venv/
 ENV/
 env/
+gpu_env/
 
 # IDEs and Editors
 .vscode/

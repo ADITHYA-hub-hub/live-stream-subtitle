@@ -10,7 +10,7 @@ model, utils = torch.hub.load(
 (get_speech_timestamps, _, _, _, _) = utils
 
 def is_speaking(audio, sample_rate):
-    audio_tensor = torch.from_numpy(audio)
+    audio_tensor = torch.from_numpy(audio).float().squeeze()
 
     speech = get_speech_timestamps(
         audio_tensor,

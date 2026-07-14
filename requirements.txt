@@ -1,6 +1,7 @@
 sounddevice
 numpy
 torch
+torchaudio
 openai-whisper
 textblob
 deep-translator
