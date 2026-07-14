@@ -1,0 +1,46 @@
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Downloaded weights / models / data files (VAD / Whisper caches)
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Temporary audio files
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.raw
+*.pcm
+
+# Python distribution and logs
+build/
+dist/
+*.egg-info/
+*.log
+.pytest_cache/
+.mypy_cache/
